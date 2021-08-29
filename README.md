@@ -12,3 +12,18 @@ https://github.com/gobolinux/Recipes/blob/effe66610cad8f33b66634a9e3656a278a567e
 https://gitlab.gnome.org/GNOME/gvfs/-/blob/master/meson_options.txt#L1
 
 https://github.com/GNOME/gvfs/blob/master/meson.build#L273
+
+```
+compile_version=017-GIT
+url="https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
+file_size=1419548
+file_md5=63b79a71337b6b76c6d82b4b136d55e9
+dir='gvfs-master'
+recipe_type=meson
+meson_variables=(
+        "-Dsystemduserunitdir=no"
+        "-Dtmpfilesdir=no"
+ )
+
+
+```
