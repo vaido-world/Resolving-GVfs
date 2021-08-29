@@ -30,4 +30,5 @@ meson_variables=(
 
 ```
 Compile Gcr 
+Compile Polkit
 ```
