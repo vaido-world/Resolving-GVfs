@@ -8,3 +8,5 @@ Compile "GVFS" "1.48.1"
 ```
 
 https://github.com/gobolinux/Recipes/blob/effe66610cad8f33b66634a9e3656a278a567e0b/VTE/0.60.3/Recipe#L10
+
+https://gitlab.gnome.org/GNOME/gvfs/-/blob/master/meson_options.txt#L1
