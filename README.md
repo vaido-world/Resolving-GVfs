@@ -81,7 +81,7 @@ Compile 59.0a1.0
 https://github.com/gobolinux/Recipes/tree/master/Polkit
 
 ```
-MakeRecipe "Polkit" "0.114" http://www.freedesktop.org/software/polkit/releases/polkit-0.114.tar.gz
+echo '\n' | MakeRecipe "Polkit" "0.114" http://www.freedesktop.org/software/polkit/releases/polkit-0.114.tar.gz
 Compile "Polkit" "0.114"
 ```
 
