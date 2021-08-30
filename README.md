@@ -54,6 +54,7 @@ InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GSettings
 Compile Gcr 
 InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
 InstallPackage "https://gobolinux.org/packages/016/MozJS--17.0.0-r2--x86_64.tar.bz2"
+InstallPackage "https://gobolinux.org/packages/016/Polkit--0.112-r3--x86_64.tar.bz2"
 Compile Polkit
 CA
 ```
