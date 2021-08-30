@@ -62,6 +62,7 @@ Compile "MozJS" "24.2.0"
 
 
 
+
 https://blog.actorsfit.com/a?ID=00600-aee2ad8b-cb98-4e73-a6bc-8c5ff6ef78dc
 
 http://134.100.28.207/files/src/spidermonkey/
@@ -70,6 +71,11 @@ https://www.wenjiangs.com/wiki/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_
 
 
 https://bugzilla.mozilla.org/show_bug.cgi?id=1588340
+
+```
+MakeRecipe MozJS http://ftp.mozilla.org/pub/spidermonkey/prereleases/59/pre1/mozjs-59.0a1.0.tar.bz2
+Compile 59.0a1.0      
+```
 
 ## PolKit
 https://github.com/gobolinux/Recipes/tree/master/Polkit
