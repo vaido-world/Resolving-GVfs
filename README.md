@@ -82,6 +82,7 @@ InstallPackage https://gobolinux.org/packages/017/UnionFS-Fuse--2.1--x86_64.tar.
 InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
 Compile Zip 3.0
 echo '\n' | MakeRecipe MozJS "59.0a1.0" "http://ftp.mozilla.org/pub/spidermonkey/prereleases/59/pre1/mozjs-59.0a1.0.tar.bz2"
+## Needs adding '-' symbol in the dir 
 nano /Data/Compile/Recipes/MozJS/59.0a1.0/Recipe
 Compile "MozJS" "59.0a1.0"      
 ```
