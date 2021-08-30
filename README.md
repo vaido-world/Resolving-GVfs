@@ -55,7 +55,7 @@ add dir='mozjs17.0.0/js/src'
 
 
 ```
-MakeRecipe "MozJS" "24.2.0" "http://ftp.mozilla.org/pub/js/mozjs-24.2.0.tar.bz2"
+echo '\n' | MakeRecipe "MozJS" "24.2.0" "http://ftp.mozilla.org/pub/js/mozjs-24.2.0.tar.bz2"
 Compile "MozJS" "24.2.0"
 ```
 
@@ -91,7 +91,7 @@ Compile "Polkit" "0.114"
 Gvfs depends on PolKit that depends on MozJS, that depends on Python
 
 ```
-MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
+echo '\n' | MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
 ```
 
 
