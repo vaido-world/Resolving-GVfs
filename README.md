@@ -71,7 +71,7 @@ Compile "MozJS" "24.2.0"
 ```
 
 
-
+More versions: https://ftp.osuosl.org/pub/blfs/conglomeration/mozjs/
 
 
 https://blog.actorsfit.com/a?ID=00600-aee2ad8b-cb98-4e73-a6bc-8c5ff6ef78dc
