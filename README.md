@@ -64,6 +64,7 @@ Compile "Polkit" "0.114"
 
 
 # GVfs
+Gvfs depends on PolKit that depends on MozJS, that depends on Python
 
 ```
 MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
