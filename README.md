@@ -29,7 +29,7 @@ meson_variables=(
 ```
 
 ```
-Compile Gcr 
+Compile Gcr "3.12.0"
 InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
 Compile Polkit
 ```
