@@ -53,10 +53,13 @@ After Making a recipe, it is needed to add the `/js/src` to the dir
 add dir='mozjs17.0.0/js/src'
 ```
 
+
 ```
 MakeRecipe "MozJS" "24.2.0" "http://ftp.mozilla.org/pub/js/mozjs-24.2.0.tar.bz2"
 Compile "MozJS" "24.2.0"
 ```
+
+
 
 
 https://blog.actorsfit.com/a?ID=00600-aee2ad8b-cb98-4e73-a6bc-8c5ff6ef78dc
@@ -64,6 +67,9 @@ https://blog.actorsfit.com/a?ID=00600-aee2ad8b-cb98-4e73-a6bc-8c5ff6ef78dc
 http://134.100.28.207/files/src/spidermonkey/
 
 https://www.wenjiangs.com/wiki/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code
+
+
+https://bugzilla.mozilla.org/show_bug.cgi?id=1588340
 
 ## PolKit
 https://github.com/gobolinux/Recipes/tree/master/Polkit
