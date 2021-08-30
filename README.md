@@ -73,8 +73,8 @@ https://www.wenjiangs.com/wiki/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_
 https://bugzilla.mozilla.org/show_bug.cgi?id=1588340
 
 ```
-MakeRecipe MozJS http://ftp.mozilla.org/pub/spidermonkey/prereleases/59/pre1/mozjs-59.0a1.0.tar.bz2
-Compile 59.0a1.0      
+echo '\n' | MakeRecipe MozJS "59.0a1.0" "http://ftp.mozilla.org/pub/spidermonkey/prereleases/59/pre1/mozjs-59.0a1.0.tar.bz2"
+Compile "MozJS" "59.0a1.0"      
 ```
 
 ## PolKit
