@@ -47,7 +47,12 @@ CA
 ```
 
 ## MozJS
-https://github.com/gobolinux/Recipes/tree/master/MozJS
+https://github.com/gobolinux/Recipes/tree/master/MozJS  
+After Making a recipe, it is needed to add the `/js/src` to the dir 
+```
+add dir='mozjs17.0.0/js/src'
+```
+
 ```
 MakeRecipe "MozJS" "24.2.0" "http://ftp.mozilla.org/pub/js/mozjs-24.2.0.tar.bz2"
 Compile "MozJS" "24.2.0"
