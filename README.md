@@ -46,6 +46,14 @@ Compile Polkit
 CA
 ```
 
+```
+
+PrepareProgram: Preparing...
+PrepareProgram: configure failed.
+Compile: MozJS 59.0a1.0 - Configuration failed.
+
+```
+
 ## MozJS
 https://github.com/gobolinux/Recipes/tree/master/MozJS  
 After Making a recipe, it is needed to add the `/js/src` to the dir 
