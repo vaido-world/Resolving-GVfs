@@ -65,3 +65,11 @@ https://github.com/gobolinux/Recipes/tree/master/MozJS
 MakeRecipe "MozJS" "24.2.0" "http://ftp.mozilla.org/pub/js/mozjs-24.2.0.tar.bz2"
 Compile "MozJS" "24.2.0"
 ```
+
+## PolKit
+https://github.com/gobolinux/Recipes/tree/master/Polkit
+
+```
+MakeRecipe "Polkit" "0.114" http://www.freedesktop.org/software/polkit/releases/polkit-0.114.tar.gz
+Compile "Polkit" "0.114"
+```
