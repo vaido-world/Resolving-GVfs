@@ -58,3 +58,9 @@ InstallPackage "https://gobolinux.org/packages/016/MozJS--17.0.0-r2--x86_64.tar.
 Compile Polkit
 CA
 ```
+
+## MozJS
+https://github.com/gobolinux/Recipes/tree/master/MozJS
+```
+MakeRecipe "MozJS" "24.2.0" "http://ftp.mozilla.org/pub/js/mozjs-24.2.0.tar.bz2"
+```
