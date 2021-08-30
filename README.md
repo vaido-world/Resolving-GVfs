@@ -29,7 +29,9 @@ meson_variables=(
 ```
 
 ```
-Compile Gcr "3.12.0"
+#Compile Gcr "3.12.0"
+#CreatePackage Gcr
+InstallPackage "https://github.com/vaido-world/Resolving-GVfs/raw/main/Gcr/Gcr--3.12.0--x86_64.tar.bz2"
 InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
 Compile Polkit
 ```
