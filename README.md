@@ -58,6 +58,8 @@ https://blog.actorsfit.com/a?ID=00600-aee2ad8b-cb98-4e73-a6bc-8c5ff6ef78dc
 
 http://134.100.28.207/files/src/spidermonkey/
 
+https://www.wenjiangs.com/wiki/en-US/docs/Mozilla/Projects/SpiderMonkey/Getting_SpiderMonkey_source_code
+
 ## PolKit
 https://github.com/gobolinux/Recipes/tree/master/Polkit
 
