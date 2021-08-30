@@ -13,6 +13,8 @@ https://gitlab.gnome.org/GNOME/gvfs/-/blob/master/meson_options.txt#L1
 
 https://github.com/GNOME/gvfs/blob/master/meson.build#L273
 
+## Add meson_variables to disable Systemd for GVfs 
+
 ```
 compile_version=017-GIT
 url="https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
@@ -73,3 +75,5 @@ https://github.com/gobolinux/Recipes/tree/master/Polkit
 MakeRecipe "Polkit" "0.114" http://www.freedesktop.org/software/polkit/releases/polkit-0.114.tar.gz
 Compile "Polkit" "0.114"
 ```
+
+
