@@ -93,3 +93,6 @@ meson_variables=(
 ```
 Compile "GVFS" "1.48.1"
 ```
+
+
+https://blog.actorsfit.com/a?ID=00600-aee2ad8b-cb98-4e73-a6bc-8c5ff6ef78dc
