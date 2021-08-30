@@ -74,8 +74,11 @@ https://bugzilla.mozilla.org/show_bug.cgi?id=1588340
 
 ```
 echo '\n' | MakeRecipe MozJS "59.0a1.0" "http://ftp.mozilla.org/pub/spidermonkey/prereleases/59/pre1/mozjs-59.0a1.0.tar.bz2"
+nano /Data/Compile/Recipes/MozJS/59.0a1.0/Recipe
 Compile "MozJS" "59.0a1.0"      
 ```
+
+
 
 ## PolKit
 https://github.com/gobolinux/Recipes/tree/master/Polkit
