@@ -63,4 +63,5 @@ CA
 https://github.com/gobolinux/Recipes/tree/master/MozJS
 ```
 MakeRecipe "MozJS" "24.2.0" "http://ftp.mozilla.org/pub/js/mozjs-24.2.0.tar.bz2"
+Compile "MozJS" "24.2.0"
 ```
