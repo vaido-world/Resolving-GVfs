@@ -13,22 +13,7 @@ https://gitlab.gnome.org/GNOME/gvfs/-/blob/master/meson_options.txt#L1
 
 https://github.com/GNOME/gvfs/blob/master/meson.build#L273
 
-## Add meson_variables to disable Systemd for GVfs 
 
-```
-compile_version=017-GIT
-url="https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
-file_size=1419548
-file_md5=63b79a71337b6b76c6d82b4b136d55e9
-dir='gvfs-master'
-recipe_type=meson
-meson_variables=(
-        "-Dsystemduserunitdir=no"
-        "-Dtmpfilesdir=no"
- )
-
-
-```
 
 ```
 #Compile Gcr "3.12.0"
@@ -53,7 +38,7 @@ InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GLib--2.6
 #Compile GSettings-Desktop-Schemas "41"
 InstallPackage "https://github.com/vaido-world/Resolving-GLib/raw/main/GSettings-Desktop-Schemas/GSettings-Desktop-Schemas--41--x86_64.tar.bz2"
 
-Compile Gcr 
+Compile Gcr "3.12.0"
 InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
 InstallPackage "https://gobolinux.org/packages/016/MozJS--17.0.0-r2--x86_64.tar.bz2"
 #InstallPackage "https://gobolinux.org/packages/016/Polkit--0.112-r3--x86_64.tar.bz2"
@@ -77,3 +62,33 @@ Compile "Polkit" "0.114"
 ```
 
 
+
+# GVfs
+
+```
+MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
+```
+
+
+## Add meson_variables to disable Systemd for GVfs 
+
+```
+compile_version=017-GIT
+url="https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
+file_size=1419548
+file_md5=63b79a71337b6b76c6d82b4b136d55e9
+dir='gvfs-master'
+recipe_type=meson
+meson_variables=(
+        "-Dsystemduserunitdir=no"
+        "-Dtmpfilesdir=no"
+ )
+
+
+```
+
+### Compile GVfs
+
+```
+Compile "GVFS" "1.48.1"
+```
