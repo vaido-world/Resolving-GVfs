@@ -123,6 +123,12 @@ nano /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 Compile "GVFS" "1.48.1"
 ```
 
+```
+meson.build:306:2: ERROR: Invalid version of dependency, need 'polkit-gobject-1' ['>= 0.114'] found '0.112'.
+
+```
+
+
 
 ```
 compile_version=017-GIT
