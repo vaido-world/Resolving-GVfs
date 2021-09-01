@@ -146,6 +146,8 @@ echo '\n' | MakeRecipe MozJS 52.2.1 https://ftp.osuosl.org/pub/blfs/conglomerati
 nano /Data/Compile/Recipes/MozJS/52.2.1/Recipe
 ```
 
+https://github.com/vaido-world/Resolving-GVfs/blob/main/README.md#mozjs
+
 
 ```
 compile_version=017-GIT
