@@ -118,6 +118,10 @@ echo '\n' | MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/ar
 ## Add meson_variables to disable Systemd for GVfs 
 
 ```
+nano /Data/Compile/Recipes/GVFS/1.48.1/Recipe
+```
+
+```
 compile_version=017-GIT
 url="https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
 file_size=1419548
