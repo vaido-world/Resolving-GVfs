@@ -142,6 +142,9 @@ No package 'mozjs-52' found
 echo '\n' | MakeRecipe MozJS 52.2.1 https://ftp.osuosl.org/pub/blfs/conglomeration/mozjs/mozjs-52.2.1gnome1.tar.gz
 ```
 
+```
+nano /Data/Compile/Recipes/MozJS/52.2.1/Recipe
+```
 
 
 ```
