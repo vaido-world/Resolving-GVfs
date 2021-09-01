@@ -171,6 +171,9 @@ python2.7  configure.py
 
 illegal instruction
 ```
+https://superuser.com/a/1618761
+
+> https://www.google.com/search?q=ERROR%3Aroot%3Acode+for+hash+md5+was+not+found.+2.7&client=firefox-b-d&ei=sKEvYb2mKfKB9u8Pm_-0iAw&oq=ERROR%3Aroot%3Acode+for+hash+md5+was+not+found.+2.7&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsANKBAhBGABQqStY2TBg3DRoAXACeACAAUuIAZMCkgEBNJgBAKABAcgBCMABAQ&sclient=gws-wiz&ved=0ahUKEwi9vsjnkN7yAhXygP0HHZs_DcEQ4dUDCBg&uact=5
 
 
 
