@@ -164,6 +164,16 @@ Compile: MozJS 52.2.1 - Configuration failed.
 
 ```
 
+
+```
+cd /Data/Compile/Sources/mozjs-52.2.1
+python2.7  configure.py
+
+illegal instruction
+```
+
+
+
 https://github.com/wingo/polkit/blob/master/NEWS
 
 
