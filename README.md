@@ -133,6 +133,11 @@ echo '\n' | MakeRecipe "Polkit" "0.114" http://www.freedesktop.org/software/polk
 Compile "Polkit" "0.114"
 ```
 
+```
+No package 'mozjs-52' found
+
+```
+
 
 
 ```
