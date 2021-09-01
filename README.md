@@ -158,6 +158,14 @@ InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar
 ```
 
 ```
+PrepareProgram: Preparing...
+PrepareProgram: configure failed.
+Compile: MozJS 52.2.1 - Configuration failed.
+
+```
+
+
+```
 compile_version=017-GIT
 url="https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
 file_size=1419548
