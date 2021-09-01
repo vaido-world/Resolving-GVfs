@@ -118,6 +118,7 @@ echo '\n' | MakeRecipe "GVFS" "1.48.1" "https://gitlab.gnome.org/GNOME/gvfs/-/ar
 ## Add meson_variables to disable Systemd for GVfs 
 
 ```
+InstallPackage "https://github.com/vaido-world/Resolving-GVfs/raw/main/Gcr/Gcr--3.12.0--x86_64.tar.bz2"
 nano /Data/Compile/Recipes/GVFS/1.48.1/Recipe
 Compile "GVFS" "1.48.1"
 
