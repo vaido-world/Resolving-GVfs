@@ -128,6 +128,11 @@ meson.build:306:2: ERROR: Invalid version of dependency, need 'polkit-gobject-1'
 
 ```
 
+```
+echo '\n' | MakeRecipe "Polkit" "0.114" http://www.freedesktop.org/software/polkit/releases/polkit-0.114.tar.gz
+Compile "Polkit" "0.114"
+```
+
 
 
 ```
