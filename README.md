@@ -150,6 +150,14 @@ https://github.com/vaido-world/Resolving-GVfs/blob/main/README.md#mozjs
 
 
 ```
+python2.7 not found, or it's not a program.
+```
+
+```
+InstallPackage "https://gobolinux.org/packages/016/Python--2.7.12-r1--x86_64.tar.bz2"
+```
+
+```
 compile_version=017-GIT
 url="https://gitlab.gnome.org/GNOME/gvfs/-/archive/master/gvfs-master.tar.bz2"
 file_size=1419548
