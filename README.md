@@ -164,6 +164,8 @@ Compile: MozJS 52.2.1 - Configuration failed.
 
 ```
 
+https://github.com/wingo/polkit/blob/master/NEWS
+
 
 ```
 compile_version=017-GIT
